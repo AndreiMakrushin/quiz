@@ -116,9 +116,7 @@ img{
     color: yellow;
 }
 .outer{
-    position: relative;
     display: flex;
-    margin-left: 150px;
     font-size: 22px;
     color: purple;
 }

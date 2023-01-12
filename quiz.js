@@ -67,7 +67,7 @@ const questions = [
     },
     {
         question: "What band's lightstick is in the photo?",
-        img: "https://m.media-amazon.com/images/I/51BPVK4jdnL._AC_UL960_QL65_.jpg",
+        img: "https://cdn.shopify.com/s/files/1/2420/2037/products/gidle_700x.jpg?v=1573936567",
         answers: [
             "BlackPink", 
             "IZ*ONE", 
