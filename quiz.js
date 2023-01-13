@@ -34,7 +34,7 @@ const questions = [
     },
     {
         question: "What K-POP group is in the picture?",
-        img: "https://mobimg.b-cdn.net/v3/fetch/1e/1ea798b16d8ede55ca3d4be6b6e7f9b4.jpeg",
+        img: "https://0.soompi.io/wp-content/uploads/2019/02/25011223/ITZY-12.jpg",
         answers: [
             "Red Velvet", 
             "ITZY", 
