@@ -4,7 +4,7 @@ const restart = () => {
     const listContainer = document.querySelector('#list');
     const submitBtn = document.querySelector('.submit');
     const outer = document.querySelector('.outer')
-    const qui = document.querySelector('.btn')
+    const button = document.querySelector('.btn')
     let score = 0;
     let questionIndex = 0;
     
@@ -50,7 +50,7 @@ const restart = () => {
             submitBtn.style.display = 'none'
             clearPage()
             outer.innerHTML =  `<h1>Correct answers: ${score} from ${questions.length}</h1>`
-            qui.innerHTML = `<button class="quiz-submit submit replase-game" id="submit">Play again</button>`
+            button.innerHTML = `<button class="quiz-submit submit replase-game" id="submit">Play again</button>`
             return
         }
     })
@@ -59,7 +59,7 @@ const restart = () => {
                     score = 0;
                     questionIndex = 0;
                     outer.innerHTML = ''
-                    qui.innerHTML = `<button class="quiz-submit submit" id="submit">Answer</button>`
+                    button.innerHTML = `<button class="quiz-submit submit" id="submit">Answer</button>`
                     clearPage()
                     showQuestion()
                     restart();
